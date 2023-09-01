@@ -1,4 +1,5 @@
 library(shiny)
+
 data("Boston", package = "MASS")
 
 shinyServer(function(input, output) {
